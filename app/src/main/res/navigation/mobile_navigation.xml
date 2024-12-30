@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.furkan.clashofwords.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_questionStartFragment"
+            app:destination="@id/questionStartFragment" />
+    </fragment>
+
+    <!-- Shop Fragment -->
+    <fragment
+        android:id="@+id/navigation_shop"
+        android:name="com.furkan.clashofwords.ui.shop.ShopFragment"
+        android:label="@string/title_shop"
+        tools:layout="@layout/fragment_shop" />
+
+    <!-- Friends Fragment -->
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.furkan.clashofwords.ui.friends.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.furkan.clashofwords.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Profile Fragment -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.furkan.clashofwords.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+        android:id="@+id/action_profile_to_profile_picture"
+        app:destination="@id/profilePicture" />
+    </fragment>
+
+
+    <!-- Profile Picture Fragment -->
+    <fragment
+        android:id="@+id/profilePicture"
+        android:name="com.furkan.clashofwords.ui.profile.ProfilePictureFragment"
+        android:label="@string/title_profile_picture"
+        tools:layout="@layout/fragment_profile_picture" />
+
+
+    <!-- Question Start Fragment -->
+    <fragment
+        android:id="@+id/questionStartFragment"
+        android:name="com.furkan.clashofwords.ui.gameplay.QuestionStartFragment"
+        android:label="Sorular Başlıyor"
+        tools:layout="@layout/fragment_question_start">
+        <action
+            android:id="@+id/action_question_start_to_gameplay"
+            app:destination="@id/gamePlayFragment" />
+    </fragment>
+
+    <!-- GamePlay Fragment -->
+    <fragment
+        android:id="@+id/gamePlayFragment"
+        android:name="com.furkan.clashofwords.ui.gameplay.GamePlayFragment"
+        android:label="Oyun Ekranı"
+        tools:layout="@layout/fragment_game_play">
+        <action
+            android:id="@+id/action_gameplay_to_result"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_gameplay_to_question_start"
+            app:destination="@id/questionStartFragment" />
+    </fragment>
+
+    <!-- Result Fragment -->
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.furkan.clashofwords.ui.gameplay.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_result_to_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+
+</navigation>

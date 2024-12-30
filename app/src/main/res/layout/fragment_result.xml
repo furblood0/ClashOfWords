@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultFragmentRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B">
+
+    <!-- Ortak Enerji ve Altın Barı -->
+    <include
+        android:id="@+id/layout_resource_bar"
+        layout="@layout/layout_resource_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kazandın Yazısı -->
+    <TextView
+        android:id="@+id/tvWinMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAZANDIN!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toBottomOf="@id/layout_resource_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp" />
+
+    <!-- Kazandığın Ödül -->
+    <TextView
+        android:id="@+id/tvReward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+10 Altın"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/tvWinMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Skor ve Profil Fotoğrafları -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvReward"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp">
+
+        <!-- Kazanan Bilgisi (Fotoğraf ve Kullanıcı Adı) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="16dp">
+
+            <!-- Kazanan Profil Fotoğrafı -->
+            <ImageView
+                android:id="@+id/playerProfileImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/defaultppicon64"
+                android:scaleType="centerCrop" />
+
+            <!-- Kazanan Kullanıcı Adı -->
+            <TextView
+                android:id="@+id/playerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- Skor -->
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 - 0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center" />
+
+        <!-- Kaybeden Bilgisi (Fotoğraf ve Kullanıcı Adı) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="16dp">
+
+            <!-- Kaybeden Profil Fotoğrafı -->
+            <ImageView
+                android:id="@+id/opponentProfileImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/defaultppicon64"
+                android:scaleType="centerCrop" />
+
+            <!-- Kaybeden Kullanıcı Adı -->
+            <TextView
+                android:id="@+id/opponentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bot"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Geri Butonu -->
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ana Sayfaya Dön"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

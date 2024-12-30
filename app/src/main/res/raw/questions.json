@@ -1,0 +1,362 @@
+[
+    {
+        "question": "Kahvaltıda içilen şeyler",
+        "correctAnswers": ["Çay", "Kahve", "Süt", "Meyve suyu", "Su", "Bitki çayları", "Limonata", "Sıcak çikolata", "Ayran", "Smoothie", "Maden Suyu", "Kefir", "Boza", "Şalgam Suyu"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Turuncu renkli meyve ve sebzeler",
+        "correctAnswers": ["Portakal", "Mandalina", "Kayısı", "Şeftali", "Papaya", "Mango", "Trabzon Hurması", "Turuncu kavun", "Turuncu karpuz", "Havuç", "Balkabağı", "Turuncu biber", "Turuncu domates", "Turuncu kabak", "Turuncu pancar"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Geleneksel Türk kahvaltısının olmazsa olmazları",
+        "correctAnswers": ["Beyaz peynir", "Kaşar peyniri", "Çökelek(lor peyniri)", "Tulum peyniri", "Siyah zeytin", "Yeşil zeytin", "Ekmek", "Simit", "Bazlama", "Haşlanmış yumurta", "Sahanda yumurta", "Menemen", "Reçel", "Kaymak", "Bal", "Domates", "Salatalık", "Biber", "Tereyağı", "Sucuk", "Çay", "pastırma"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Aşurenin içine konulabilen yiyecekler",
+        "correctAnswers": ["Buğday", "Pirinç", "Yulaf", "Nohut", "Kuru fasulye", "Kuru kayısı", "Kuru üzüm", "Kuru incir", "Kuş üzümü", "Dut kurusu", "Elma", "Nar", "Portakal kabuğu", "Fındık", "Ceviz", "Badem", "Antep fıstığı", "Toz şeker", "Bal", "Tarçın", "Karanfil", "Hindistan cevizi", "Süt", "Gül suyu", "Susam"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Çorba çeşitleri",
+        "correctAnswers": ["Mercimek Çorbası", "Ezogelin Çorbası", "Tarhana Çorbası", "Yayla Çorbası", "Domates Çorbası", "Tavuk Suyu Çorbası", "İşkembe Çorbası", "Kelle Paça Çorbası", "Şehriye Çorbası", "Düğün Çorbası", "Minestrone", "Miso Çorbası", "Tom Yum", "Pho", "Borscht", "Gazpacho", "Clam Chowder", "French Onion Soup", "Laksa", "Ramen Çorbası", "Sebze Çorbası", "Balkabağı Çorbası", "Brokoli Çorbası", "Kremalı Mantar Çorbası", "Kırmızı Mercimek Çorbası", "Bulgur Çorbası", "Lahana Çorbası", "Bezelye Çorbası", "Nohutlu Çorba", "Karalahana Çorbası"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Tost çeşitleri",
+        "correctAnswers": ["Kaşarlı Tost", "Sucuklu Tost", "Salamlı Tost", "Karışık Tost", "Peynirli Tost", "Zeytinli Tost", "Domatesli Tost", "Kavurmalı Tost", "Pastırmalı Tost", "Ton Balıklı Tost", "Avokadolu Tost", "Mozzarellalı Tost", "Ispanaklı Tost", "Nutellalı Tost", "Ballı Tost", "Çikolatalı ve Fındıklı Tost", "Fıstık Ezmesi ve Muzlu Tost", "İzmir Tostu", "Ayvalık Tostu", "Kumru Tostu", "Fransız Tostu", "Sebzeli Tost", "Vegan Peynirli Tost", "Humuslu Tost"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Çilek denince akla gelenler",
+        "correctAnswers": ["Kırmızı", "Yeşil Yaprak", "Çekirdek", "Tatlı", "Küçük Boyut", "Yumuşak Doku", "Aromatik", "Çilekli Dondurma", "Çilek Reçeli", "Çilekli Pasta", "Çilekli Milkshake", "Çilekli Çikolata", "Çilekli Tart", "Çilekli Cheesecake", "Meyve Salatası", "Smoothie", "Yaz", "Piknik", "Meyve Bahçesi", "Çilekli Sos", "Çiftlik", "Pazar Alışverişi", "Tazelik", "Doğallık", "Çilekli Şapka", "Çilek Kokusu", "Çilek Desenli Elbise"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Arabaşı çorbası malzemeleri",
+        "correctAnswers": ["Tavuk", "Tavuk Suyu", "Et Suyu", "Tenis", "Un", "Tereyağı", "Domates Salçası", "Pul Biber", "Karabiber", "Tuz", "Su", "Tuz", "Limon", "Acı Sos"],
+        "category": "Gıda ve Yemek"
+    },
+    {
+        "question": "Enerji Kaynakları",
+        "correctAnswers": ["Güneş enerjisi", "Rüzgar enerjisi", "Hidroelektrik enerji", "Jeotermal enerji", "Biyokütle enerjisi", "Dalga enerjisi", "Kömür", "Petrol", "Doğal gaz", "Nükleer enerji"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "Güneş Sistemi'ndeki Gezegenler",
+        "correctAnswers": ["Merkür", "Venüs", "Dünya", "Mars", "Jüpiter", "Satürn", "Uranüs", "Neptün"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "2000 yılı ve sonrasında geliştirilmiş programlama dilleri nelerdir?",
+        "correctAnswers": ["C#", "F#", "Scala", "Groovy", "Go (Golang)", "Rust", "Dart", "Julia", "Kotlin", "TypeScript", "Swift", "Elixir", "Crystal", "Hack", "Zig"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "Laptopta Bulunan Temel Donanımlar",
+        "correctAnswers": ["Ekran", "Klavye", "Touchpad", "Batarya", "Webcam", "Mikrofon", "Hoparlörler", "USB Portları", "HDMI/DisplayPort", "Kulaklık/Mikrofon Girişleri", "Güç Girişi", "Soğutma Sistemi", "Wi-Fi ve Bluetooth Modülü", "Sabit Disk/SSD", "RAM (Bellek)", "İşlemci (CPU)", "Grafik Kartı", "Anakart", "SD Kart Girişi", "Ethernet Portu", "Kapasitif Güç Düğmesi"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "Uzaya astronot gönderen ülkeler",
+        "correctAnswers": ["Rusya", "Amerika Birleşik Devletleri(ABD)", "Çin", "Japonya", "Fransa", "Almanya", "İtalya", "İngiltere", "Kanada", "Hindistan", "Çekoslovakya", "Polonya", "Macaristan", "Vietnam", "Küba", "Meksika", "Malezya"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "iPhone telefon modelleri",
+        "correctAnswers": ["iPhone (1. Nesil)", "iPhone 3G", "iPhone 3GS", "iPhone 4", "iPhone 4S", "iPhone 5", "iPhone 5C" , "iPhone 5S", "iPhone 6", "iPhone 6 Plus", "iPhone 6S", "iPhone 6S Plus", "iPhone SE (1. Nesil)", "iPhone 7", "iPhone 7 Plus", "iPhone 8", "iPhone 8 Plus", "iPhone X", "iPhone XR" , "iPhone XS", "iPhone XS Max", "iPhone 11", "iPhone 11 Pro", "iPhone 11 Pro Max", "iPhone SE (2. Nesil)", "iPhone 12 Mini", "iPhone 12", "iPhone 12 Pro", "iPhone 12 Pro Max", "iPhone 13 Mini", "iPhone 13" , "iPhone 13 Pro", "iPhone 13 Pro Max", "iPhone SE (3. Nesil)", "iPhone 14", "iPhone 14 Plus", "iPhone 14 Pro", "iPhone 14 Pro Max", "iPhone 15", "iPhone 15 Plus", "iPhone 15 Pro", "iPhone 15 Pro Max", "iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
+        "category": "Teknoloji ve Bilim"
+    },
+    {
+        "question": "Efsane Milan kadrosu",
+        "correctAnswers": ["Dida", "Cafu", "Alessandro Nesta", "Jaap Stam", "Paolo Maldini", "Gennaro Gattuso", "Andrea Pirlo", "Clarence Seedorf", "Kaká", "Andriy Shevchenko", "Filippo Inzaghi"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "2012-2013 senesi Galatasaray kadrosu",
+        "correctAnswers": ["Fernando Muslera", "Eray İşcan", "Ufuk Ceylan", "Emmanuel Eboué", "Semih Kaya", "Dany Nounkeu", "Hakan Balta", "Albert Riera", "Gökhan Zan", "Sabri Sarıoğlu", "Felipe Melo" , "Selçuk İnan", "Emre Çolak", "Hamit Altıntop", "Nordin Amrabat", "Yekta Kurtuluş", "Burak Yılmaz", "Didier Drogba", "Umut Bulut", "Johan Elmander"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "Ballon d'Or Kazanan Oyuncular",
+        "correctAnswers": ["Stanley Matthews", "Alfredo Di Stéfano", "Raymond Kopa", "Luis Suárez", "Omar Sívori", "Josef Masopust", "Lev Yashin", "Denis Law", "Eusébio", "Bobby Charlton", "Flórián Albert", "George Best", "Gianni Rivera", "Gerd Müller", "Johan Cruyff", "Franz Beckenbauer", "Oleg Blokhin", "Allan Simonsen", "Kevin Keegan", "Karl-Heinz Rummenigge", "Paolo Rossi", "Michel Platini", "Igor Belanov", "Ruud Gullit", "Marco van Basten", "Lothar Matthäus", "Jean-Pierre Papin", "Roberto Baggio", "Hristo Stoichkov", "George Weah", "Matthias Sammer", "Ronaldo", "Zinedine Zidane", "Rivaldo", "Luís Figo", "Michael Owen", "Pavel Nedvěd", "Andriy Shevchenko", "Ronaldinho", "Fabio Cannavaro", "Kaká", "Cristiano Ronaldo", "Lionel Messi", "Luka Modrić", "Karim Benzema", "Rodri"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "Türk futbolunun efsane teknik direktörleri",
+        "correctAnswers": ["Fatih Terim", "Şenol Güneş", "Mustafa Denizli", "Aykut Kocaman", "Ersun Yanal", "Hikmet Karaman", "Abdullah Avcı", "Okan Buruk", "Rıza Çalımbay", "Erol Bulut", "Bülent Korkmaz", "Tayfur Havutçu", "Yılmaz Vural", "Ziya Doğan", "Samet Aybaba", "Metin Türel", "Cüneyt Tanman", "Tamer Tuna", "Sergen Yalçın", "Hamza Hamzaoğlu"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "İtalya Ligi'nde Şampiyon Olmuş Takımlar",
+        "correctAnswers": ["Juventus", "Inter", "Milan", "Genoa", "Torino", "Bologna", "Pro Vercelli", "Roma", "Napoli", "Lazio", "Fiorentina", "Cagliari", "Casale", "Novese", "Sampdoria", "Hellas Verona"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "Futbol ve basketbol dışında Türkiye'yi temsil eden tanınmış sporcular",
+        "correctAnswers": ["Naim Süleymanoğlu", "Halil Mutlu", "Süreyya Ayhan Kop", "Aslı Çakır Alptekin", "Elvan Abeylegesse", "Rıza Kayaalp", "Taha Akgül", "Hamza Yerlikaya", "Kenan Sofuoğlu", "Toprak Razgatlıoğlu", "Çağla Büyükakçay", "İpek Soylu", "Şahika Ercümen", "Derya Can Göçen", "Ferhat Arıcan", "İbrahim Çolak", "Busenaz Sürmeneli", "Buse Naz Çakıroğlu", "Servet Tazegül", "Nur Tatar Askari", "Hatice Kübra İlgün", "Ebrar Karakurt", "Zehra Güneş", "Naz Aydemir Akyol"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "2023 Formula 1 sezonunda yarışan takımlar",
+        "correctAnswers": ["Red Bull Racing", "Mercedes-AMG Petronas Formula One Team", "Scuderia Ferrari", "McLaren F1 Team", "Alpine F1 Team", "Aston Martin Aramco Cognizant Formula One Team", "Scuderia AlphaTauri", "Alfa Romeo F1 Team Stake", "Haas F1 Team", "Williams Racing"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "2000 ve sonrasında resmi maça çıkmış Fenerbahçe kalecileri",
+        "correctAnswers": ["Rüştü Reçber", "Volkan Demirel", "Robert Enke", "Recep Biler", "Serdar Kulbilge", "Volkan Babacan", "Mert Günok", "Fabiano Ribeiro", "Carlos Kameni", "Harun Tekin", "Altay Bayındır", "Berke Özer", "İrfan Can Eğribayat", "Dominik Livaković"],
+        "category": "Spor ve Fitness"
+    },
+    {
+        "question": "Etek çeşitleri",
+        "correctAnswers": ["Kalem Etek", "Pileli Etek", "Çan Etek", "Midi Etek", "Maksi Etek", "Mini Etek", "Asimetrik Etek", "Drapeli Etek", "Balon Etek", "Fırfırlı Etek", "Kalın Pilili Etek", "Yırtmaçlı Etek", "Kat Kat Etek", "Düz Kesim Etek", "Tütü Etek", "Peplum Etek", "Kot Etek", "Kloş Etek", "Kemerli Etek", "Yüksek Bel Etek"],
+        "category": "Moda ve Giyim"
+    },
+    {
+        "question": "Pantolon çeşitleri",
+        "correctAnswers": ["Kot Pantolon (Jean)", "Chino Pantolon", "Kanvas Pantolon", "Klasik Pantolon", "Kargo Pantolon", "Jogger Pantolon", "Spor Pantolon", "Yüksek Bel Pantolon", "Palazzo Pantolon", "İspanyol Paça Pantolon", "Dar Paça Pantolon", "Havuç Kesim Pantolon", "Skinny Pantolon", "Culotte Pantolon", "Paperbag Pantolon", "Kapri Pantolon", "Slim Fit Pantolon", "Regular Fit Pantolon", "Dar Kesim Pantolon", "Bol Kesim Pantolon", "Likralı Pantolon"],
+        "category": "Moda ve Giyim"
+    },
+    {
+        "question": "Mağazada Kabine Girmeden Denenebilecek Şeyler",
+        "correctAnswers": ["Şapka", "Ayakkabı", "Çanta", "Atkı", "Şal", "Eldiven", "Gözlük", "Saat", "Kemer", "Takılar", "Saç aksesuarları", "Çorap", "Fular", "Eşarp", "Kravat", "Bere", "Saç bandı", "Telefon kılıfı", "Cüzdan"],
+        "category": "Moda ve Giyim"
+    },
+    {
+        "question": "Gelinlik çeşitleri",
+        "correctAnswers": ["A Kesim Gelinlik", "Balık Kesim Gelinlik", "Prenses Gelinlik", "Düz Kesim Gelinlik", "Helenistik (Helen) Gelinlik", "İmparatorluk Kesim (Empirme) Gelinlik", "Kuyruklu Gelinlik", "Straplez Gelinlik", "V Yaka Gelinlik", "Kayık Yaka Gelinlik", "Kalp Yaka Gelinlik", "Halter Yaka Gelinlik", "Uzun Kollu Gelinlik", "İllüzyon Yaka Gelinlik", "Tül Gelinlik", "Dantel Gelinlik", "Saten Gelinlik", "Şifon Gelinlik", "Tafta Gelinlik", "Mini Gelinlik", "Vintage Gelinlik", "Bohem Gelinlik", "Gothic Gelinlik", "Asimetrik Gelinlik"],
+        "category": "Moda ve Giyim"
+    },
+    {
+        "question": "Konya denince akla gelen şeyler",
+        "correctAnswers": ["Mevlana", "Mevlana Müzesi", "Şeb-i Arus", "Etli Ekmek", "Tirit", "Konya Düğün Pilavı", "Alaaddin Tepesi", "Selçuklu Mimarisi", "Karatay Medresesi", "İnce Minareli Medrese", "Tropikal Kelebek Bahçesi", "Tuz Gölü", "Sille", "Kilistra Antik Kenti", "Çatalhöyük", "Konya Ovası", "Torku", "Selçuk Üniversitesi", "Şekerleme ve Lokum", "Anadolu’nun Başkenti", "KGTÜ", "Meram bağları"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Muş denince akla gelenler",
+        "correctAnswers": ["Muş Ovası", "Lale", "Murat Nehri", "Kayak Merkezi", "Tarihi Murat Köprüsü", "Malazgirt Meydan Muharebesi", "Alparslan", "Muş Helvası", "Varto Depremi", "Yaylalar", "Çiçek Balı", "Kar Şehri", "Muş Kalesi", "Korkut Beldesi", "Haçlı Gölü", "Hüsrev Paşa Camii", "Yayla Festivalleri", "El Sanatları", "Halk Oyunları"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "İstanbulun Anadolu yakasındaki ilçeleri",
+        "correctAnswers": ["Adalar", "Ataşehir", "Beykoz", "Çekmeköy", "Kadıköy", "Kartal", "Maltepe", "Pendik", "Sancaktepe", "Sultanbeyli", "Şile", "Tuzla", "Ümraniye", "Üsküdar"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "İstanbulun Avrupa yakasındaki ilçeleri",
+        "correctAnswers": ["Arnavutköy", "Avcılar", "Bağcılar", "Bahçelievler", "Bakırköy", "Başakşehir", "Bayrampaşa", "Beşiktaş", "Beylikdüzü", "Beyoğlu", "Büyükçekmece", "Esenler", "Esenyurt", "Eyüpsultan", "Fatih", "Gaziosmanpaşa", "Güngören", "Kağıthane", "Küçükçekmece", "Sarıyer", "Silivri", "Sultangazi", "Şişli", "Zeytinburnu"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "\"A\" harfi ile başlayan illerimiz",
+        "correctAnswers": ["Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "\"O\" harfini içeren illerimiz",
+        "correctAnswers": ["Afyonkarahisar", "Bolu", "Çorum", "Kastamonu", "Konya", "Ordu", "Osmaniye", "Sinop", "Tokat", "Trabzon", "Yozgat", "Zonguldak"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "İki heceli illerimiz",
+        "correctAnswers": ["Ağrı", "Artvin", "Aydın", "Bartın", "Batman", "Bayburt", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa", "Çorum", "Düzce", "Hatay", "Iğdır", "İzmir", "Kilis", "Konya", "Mardin", "Mersin", "Muğla", "Niğde", "Ordu", "Rize", "Samsun", "Siirt", "Sivas", "Şırnak", "Tokat", "Trabzon", "Uşak", "Yozgat"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Türkiye'de En Yüksek Nüfuslu 10 İl",
+        "correctAnswers": ["İstanbul", "Ankara", "İzmir", "Bursa", "Adana", "Gaziantep", "Antalya", "Konya", "Şanlıurfa", "Kocaeli"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Dünyanın en büyük gölleri",
+        "correctAnswers": ["Hazar Gölü", "Superior Gölü", "Victoria Gölü", "Huron Gölü", "Michigan Gölü", "Baykal Gölü", "Tanganika Gölü", "Büyük Ayı Gölü", "Malawi Gölü", "Aral Gölü"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Denize kıyısı olan illerimiz",
+        "correctAnswers": ["Artvin", "Rize", "Trabzon", "Giresun", "Ordu", "Samsun", "Sinop", "Kastamonu", "Bartın", "Zonguldak", "Düzce", "Sakarya", "Kocaeli", "İstanbul", "Yalova", "Bursa", "Balıkesir", "Çanakkale", "Tekirdağ", "Edirne", "İzmir", "Aydın", "Muğla", "Antalya", "Mersin", "Adana", "Hatay", "Kırklareli"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "5 harfli illerimiz",
+        "correctAnswers": ["Adana", "Aydın", "Bursa", "Çorum", "Hatay", "İzmir", "Kilis", "Konya", "Muğla", "Niğde", "Siirt", "Sinop", "Sivas", "Tokat"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Bayrağında yıldız bulunan ülkeler",
+        "correctAnswers": ["Türkiye", "Çin", "Amerika Birleşik Devletleri", "Brezilya", "Avustralya", "Yeni Zelanda", "Vietnam", "Somali", "Şili", "Küba", "Singapur", "Malezya", "Suriye", "Ürdün", "Irak", "Fas", "Tunus", "Cezayir", "Pakistan", "Azerbaycan", "Türkmenistan", "Bosna-Hersek", "Kuzey Kore", "Myanmar", "Angola", "Gana", "Senegal", "Etiyopya", "Burkina Faso", "Mozambik", "Panama", "Gine-Bissau", "Surinam", "Venezuela", "Liberya", "Samoa", "Papua Yeni Gine"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "En uzun sahil şeridine sahip 10 ülke",
+        "correctAnswers": ["Kanada", "Norveç", "Endonezya", "Grönland", "Rusya", "Filipinler", "Japonya", "Avustralya", "Amerika Birleşik Devletleri", "Yeni Zelanda"],
+        "category": "Coğrafya ve Yerler"
+    },
+    {
+        "question": "Dört ayak üzerinde hareket eden hayvanlar",
+        "correctAnswers": ["Aslan", "Kaplan", "Zürafa", "Fil", "At", "Koyun", "Kedi", "Köpek", "Keçi", "Tavşan", "Sincap", "Tilki", "Kanguru", "Çakal", "Gergedan", "Leopar", "Kuzu", "Kaplumbağa", "Fare", "Su Aygırı", "İnek", "Sırtlan", "Kurt", "Panda", "Antilop", "Domuz", "Dağ Keçisi", "Ayı", "Çita", "Ceylan", "Eşek", "Alageyik", "Kertenkele", "Lama", "Manda", "Çöl Tilkisi", "Koala"],
+        "category": "Doğa ve Hayvanlar"
+    },
+    {
+        "question": "Dinozor türleri",
+        "correctAnswers": ["Tyrannosaurus Rex", "Velociraptor", "Spinosaurus", "Allosaurus", "Carnotaurus", "Giganotosaurus", "Dromaeosaurus", "Baryonyx", "Dilophosaurus", "Ceratosaurus", "Brachiosaurus", "Diplodocus", "Stegosaurus", "Triceratops", "Apatosaurus", "Ankylosaurus", "Iguanodon", "Parasaurolophus", "Corythosaurus", "Hadrosaurus", "Pteranodon", "Quetzalcoatlus", "Ichthyosaurus", "Mosasaurus", "Plesiosaurus", "Pachycephalosaurus", "Euoplocephalus", "Saichania", "Kentrosaurus", "Nodosaurus"],
+        "category": "Doğa ve Hayvanlar"
+    },
+    {
+        "question": "Soğuk iklimlerde yaşayan hayvanlar",
+        "correctAnswers": ["Kutup Ayısı", "Penguen", "Kutup Tilkisi", "Deniz Fili", "Mors", "Kar Baykuşu", "Kutup Tavşanı", "Kar Leoparı", "Ren Geyiği", "Boz Ayı", "Kutup Kurdu", "İmparator Penguen", "Adélie Pengueni", "Güney Deniz Aslanı", "Yaban Ren Geyiği", "Sibirya Kaplanı", "Arktik Somonu", "Arktik Ternası", "Kar Tilkisi", "Kutup Kırlangıcı", "Leopar Foku", "Arktik Tilkisi", "Kutup Martısı", "Mavi Balina", "Kutup Tavukları", "Deniz Kutup Yıldızı", "Sibirya Misk Öküzü", "Arktik Tavşanı", "Kral Penguen", "Buz Balığı", "Narval (Deniz Gergedanı)", "Deniz Gergedanı", "Kuzey Foku", "Arktik Baykuş", "Sibirya Kar Tavşanı", "Arktik Kurt", "Kutup Geyiği"],
+        "category": "Doğa ve Hayvanlar"
+    },
+    {
+        "question": "2020-2021 yayın döneminde ATV’de yayınlanan programlar/diziler",
+        "correctAnswers": ["Kuruluş Osman", "Bir Zamanlar Çukurova", "Hercai", "Eşkıya Dünyaya Hükümdar Olmaz", "Maraşlı", "Akıncı", "Müge Anlı ile Tatlı Sert", "Esra Erolda", "Kim Milyoner Olmak İster?", "Nihat Hatipoğlu ile Dosta Doğru", "atv Ana Haber", "Kahvaltı Haberleri", "Gün Ortası", "Son Durak", "Gençliğim Eyvah", "Maria ile Mustafa", "Gel Dese Aşk"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Yurt dışına ihraç edilen Türk dizileri",
+        "correctAnswers": ["Muhteşem Yüzyıl", "Diriliş Ertuğrul", "Kara Sevda", "Gümüş", "Aşk-ı Memnu", "Ezel", "Fatmagülün Suçu Ne?", "Sıla", "İçerde", "Medcezir", "Adını Feriha Koydum", "Cesur ve Güzel", "Erkenci Kuş", "Kuzey Güney", "Sen Çal Kapımı", "Yasak Elma", "Çukur", "Hercai", "Mucize Doktor", "Kaderimin Oyunu"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Cinayetlerin çözüldüğü, kayıpların bulunduğu TV programları",
+        "correctAnswers": ["Müge Anlı ile Tatlı Sert", "Serap Paköz ile Gerçeğin Peşinde", "Didem Arslan Yılmaz'la Vazgeçme", "Esra Erol'da", "Balçiçek İlter ile Olay Yeri", "Neşe Berber ile Sesli Vakit"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Film seçerken dikkate aldığımız şeyler",
+        "correctAnswers": ["Tür", "Konu", "Hikâye", "Yönetmen", "Oyuncular", "Film Eleştirileri", "IMDB Puanı", "Ruh Hali", "Popülerlik ve Ödüller", "Süre", "İzlenme Ortamı", "Fragman", "Arkadaş veya Aile Tavsiyesi", "Altyazı/Dublaj"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "2010 sonrası yayınlanmış yerli okul dizileri",
+        "correctAnswers": ["Pis Yedili", "Güneşi Beklerken", "Not Defteri", "Kırgın Çiçekler", "4N1K İlk Aşk", "Aşk 101", "Tozkoparan", "Duy Beni", "Taçsız Prenses", "Öğretmen", "Lise Devriyesi", "Tek Yürek", "Gençliğim Eyvah"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Türk sinemasında en çok gişe yapan filmler",
+        "correctAnswers": ["Recep İvedik 5", "Recep İvedik 4", "Mucize", "Fetih 1453", "Düğün Dernek", "Recep İvedik 6", "Ayla", "7. Koğuştaki Mucize", "Kurtlar Vadisi Irak", "Eşkıya", "Bergen", "Organize İşler Sazan Sarmalı", "Babam ve Oğlum", "Kocan Kadar Konuş Diriliş", "Aile Arasında", "G.O.R.A.", "A.R.O.G."],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Game of Thrones’ta geçen büyük haneler/aileler",
+        "correctAnswers": ["House Stark", "House Lannister", "House Targaryen", "House Baratheon", "House Greyjoy", "House Tyrell", "House Martell", "House Tully", "House Arryn", "House Frey", "House Bolton", "House Tarly", "House Reed"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Vikings dizisinde yer alan karakterler",
+        "correctAnswers": ["Ragnar Lothbrok", "Lagertha", "Bjorn Ironside", "Rollo", "Floki", "Athelstan", "Aslaug", "King Ecbert", "Ivar the Boneless", "Ubbe", "Hvitserk", "Sigurd", "Harald Finehair", "Halfdan the Black", "Bishop Heahmund", "Gunnhild", "Torvi", "Freydis", "King Ecbert", "Prince Aethelwulf", "Judith", "King Aelle", "Queen Kwenthrith", "Alfred the Great", "Magnus", "King Burgred"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Breaking Bad dizisinde yer alan ana karakterler",
+        "correctAnswers": ["Walter White", "Jesse Pinkman", "Skyler White", "Hank Schrader", "Marie Schrader", "Walter White Jr. (Flynn)", "Saul Goodman (Jimmy McGill)", "Gustavo Fring", "Mike Ehrmantraut", "Todd Alquist", "Tuco Salamanca", "Hector Salamanca", "Jane Margolis", "Badger (Brandon Mayhew)", "Skinny Pete (Peter)", "Combo Ortega", "Leonel ve Marco Salamanca", "Steven Gomez (Gomie)"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Prison Break dizisinde yer alan karakterler",
+        "correctAnswers": ["Michael Scofield", "Lincoln Burrows", "Sara Tancredi", "Theodore Bagwell", "Fernando Sucre", "Benjamin Miles Franklin", "John Abruzzi", "Alexander Mahone", "Paul Kellerman", "Veronica Donovan", "Brad Bellick", "Charles Patoshik", "Lincoln Jr. Burrows", "James Whistler", "Gretchen Morgan", "Don Self", "General Jonathan Krantz", "Charles Westmoreland", "Maricruz Delgado"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Türkiye’de yayınlanmış en popüler çizgi filmler (eski ve yeni)",
+        "correctAnswers": ["Tom ve Jerry", "Şirinler", "Taş Devri", "Red Kit", "Temel Reis", "Heidi", "Jetgiller", "Nils ve Uçan Kaz", "Şeker Kız Candy", "Voltran", "Pokemon", "Dijital Canavarlar", "Beyblade", "Marsupilami", "Kaptan Tsubasa", "Scooby-Doo", "Caillou", "SpongeBob SquarePants", "Ben 10", "Avatar", "Phineas and Ferb", "Adventure Time", "Regular Show", "Teen Titans Go!", "Mucize Uğur Böceği ile Kara Kedi", "Pijamaskeliler", "Paw Patrol", "Gumball", "My Little Pony", "Rafadan Tayfa", "Pepee"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Ülkemizde yayın yapan ulusal radyo kanalları",
+        "correctAnswers": ["TRT FM", "TRT Radyo 1", "TRT Nağme", "TRT Türkü", "Süper FM", "Show Radyo", "Alem FM", "Kral FM", "Power FM", "Metro FM", "NTV Radyo", "CNN Türk Radyo", "Radyo Spor", "Radyo D", "Virgin Radio Türkiye", "Radyo Viva", "Joy FM", "Joy Türk", "Radyo Fenomen", "Number One FM", "Slow Türk", "Kafa Radyo", "Radyo 7", "Radyo Alaturka", "Radyo Seymen", "Pal Nostalji", "Pal Station", "Radyo Müzik", "Best FM", "A Haber Radyo"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Popüler Ege dizileri",
+        "correctAnswers": ["Yeşil Deniz", "Dürüye'nin Güğümleri", "Güzel Köylü", "Kavak Yelleri", "Son Yaz", "Baba Ocağı", "Hanım Köylü", "Aşk Yeniden", "Benim İçin Üzülme", "Bir Zamanlar Çukurova", "Dolunay", "Egenin Hamsisi", "Hayat Sevince Güzel"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Disney prenseslerinin isimleri",
+        "correctAnswers": ["Pamuk Prenses", "Cinderella", "Aurora", "Ariel", "Belle", "Jasmine", "Pocahontas", "Mulan", "Tiana", "Rapunzel", "Merida", "Anna", "Elsa", "Moana"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Adanalı dizisinin ana karakterleri",
+        "correctAnswers": ["Adanalı", "Maraz Ali", "İdil Ertürk", "Sofia", "Engin Baybars", "Fikret (Fiko)", "Nazlı", "Pamuk", "Alex", "Ferruh", "Matador İsmail", "Mülayim", "Timur", "Semih (Boncuk)"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Kardeş Payı karakterleri",
+        "correctAnswers": ["Metin Özdemir", "Ali Özdemir", "Feyza Özdemir", "Eda", "Şükriye", "Emrah", "Salih Abi", "Yiğit", "Kartal", "Tahsin", "Sezai Abi", "Hilmi", "Başkomiser Akif", "Doğukan", "Cemile Teyze"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Zengin Kız Fakir Oğlan dizisinin karakterleri",
+        "correctAnswers": ["Nurhan", "Biricik", "Kemal", "Serpil", "Şükrü", "Meryem", "Sarp", "Rüyam", "Mahmut", "Badire", "Junior Kemal", "Burhan", "Ceyda", "Hakan", "Filiz", "Banka Müdürü Lütfü", "Erdem", "Mehmet", "Nazlı", "Ramin"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Nuri Bilge Ceylan filmleri",
+        "correctAnswers": ["Kasaba", "Mayıs Sıkıntısı", "Uzak", "İklimler", "Üç Maymun", "Bir Zamanlar Anadolu'da", "Kış Uykusu", "Ahlat Ağacı", "Kuru Otlar Üstüne", "Koza"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Çizgi film dünyasında unutulmaz düşmanlar kimlerdir?",
+        "correctAnswers": ["Gargamel", "Mojo Jojo", "Plankton", "Jafar", "Scar", "Hades", "Shredder", "Skeletor", "Dr. Doofenshmirtz", "Frieza", "Azula", "Him", "Bluto", "Vicky", "Zim", "Queen Chrysalis", "Maleficent", "Cruella De Vil", "Captain Hook", "Yzma"],
+        "category": "Film, Dizi ve Yayıncılık"
+    },
+    {
+        "question": "Tedavüldeki Türk lirasının üzerindeki kişiler",
+        "correctAnswers": ["Mustafa Kemal Atatürk", "Aydın Sayılı", "Cahit Arf", "Mimar Kemaleddin", "Fatma Aliye Hanım", "Buhurizade Mustafa Itri", "Yunus Emre"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye’deki siyasi partiler",
+        "correctAnswers": ["Adalet ve Kalkınma Partisi", "Cumhuriyet Halk Partisi", "Milliyetçi Hareket Partisi", "İYİ Parti", "Halkların Demokratik Partisi", "Yeşil Sol Parti", "Türkiye İşçi Partisi", "Yeniden Refah Partisi", "Büyük Birlik Partisi", "Demokrasi ve Atılım Partisi", "Gelecek Partisi", "Saadet Partisi", "Demokrat Parti", "Memleket Partisi", "Zafer Partisi", "Vatan Partisi", "Bağımsız Türkiye Partisi", "Hür Dava Partisi", "Anavatan Partisi", "Türkiye Komünist Partisi", "Sol Parti", "Hak ve Özgürlükler Partisi", "Türkiye Değişim Partisi", "Milli Yol Partisi"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Anadolu Türk beylikleri",
+        "correctAnswers": ["Karamanoğulları", "Germiyanoğulları", "Aydınoğulları", "Menteşeoğulları", "Saruhanoğulları", "Candaroğulları (İsfendiyaroğulları)", "Karesioğulları", "Hamitoğulları", "Eşrefoğulları", "Sahipoğulları (Sahipataoğulları)", "Tacettinoğulları", "Ramazanoğulları", "Dulkadiroğulları", "Osmanoğulları", "Kadı Burhaneddin Ahmed Devleti", "İnançoğulları", "Tekeoğulları", "Pervaneoğulları", "Alaiye", "Çobanoğulları", "Saltuklular", "Mengücek", "Danişmentliler", "Artuklular"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Osmanlı Devletindeki vergiler",
+        "correctAnswers": ["Öşür (Aşar)", "Haraç", "Cizye", "Avarız", "İspenç", "Resm-i Çift", "Resm-i Bennâk", "Bac", "İhtisap", "Ağnam Resmi", "İmdadiye", "Bedel-i Nüzül", "Sürsat", "Derbent Resmi", "Gümrük Vergileri", "Mururiye Resmi", "Çiftbozan Vergisi", "Resm-i Arusane (Gerdek Vergisi)", "Resm-i Tapu", "Resm-i Bennak", "Resm-i Mücerred", "Damga Vergisi", "Kürekçi Bedeli", "Kalemiye Vergisi", "Karârî Vergisi"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Osmanlı padişahları",
+        "correctAnswers": ["Osman Gazi", "Orhan Gazi", "1. Murad", "Yıldırım Bayezid (1. Bayezid)", "1. Mehmed (Çelebi Mehmed)", "2. Murad", "Fatih Sultan Mehmed (2. Mehmed)", "2. Bayezid", "Yavuz Sultan Selim (1. Selim)", "Kanuni Sultan Süleyman (1. Süleyman)", "2. Selim", "3. Murad", "3. Mehmed", "1. Ahmed", "1. Mustafa", "Genç Osman (2. Osman)", "4. Murad", "İbrahim", "4. Mehmed", "2. Süleyman", "2. Ahmed", "2. Mustafa", "3. Ahmed", "1. Mahmud", "3. Osman", "3. Mustafa", "1. Abdülhamid", "3. Selim", "4. Mustafa", "2. Mahmud", "Abdülmecid 1", "Abdülaziz", "5. Murad", "2. Abdülhamid", "5. Mehmed Reşad", "6. Mehmed Vahdettin"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye'de Cumhurbaşkanlığı Görevinde Bulunmuş Kişiler",
+        "correctAnswers": ["Mustafa Kemal Atatürk", "İsmet İnönü", "Celal Bayar", "Cemal Gürsel", "Cevdet Sunay", "Fahri Korutürk", "Kenan Evren", "Turgut Özal", "Süleyman Demirel", "Ahmet Necdet Sezer", "Abdullah Gül", "Recep Tayyip Erdoğan"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye’deki dağlar",
+        "correctAnswers": ["Ağrı Dağı", "Erciyes Dağı", "Toros Dağları", "Kaçkar Dağları", "Bey Dağları", "Nemrut Dağı", "Uludağ", "Cilo Dağı", "Süphan Dağı", "Palandöken Dağı", "Munzur Dağları", "Yıldız Dağları", "Ilgaz Dağları", "Giresun Dağları", "Bozdağlar"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye'deki Göller",
+        "correctAnswers": ["Van Gölü", "Tuz Gölü", "Beyşehir Gölü", "Eğirdir Gölü", "Burdur Gölü", "Acıgöl", "Manyas (Kuş) Gölü", "Sapanca Gölü", "Çıldır Gölü", "Hazar Gölü", "Erçek Gölü", "Nemrut Gölü", "Salda Gölü", "Bafa Gölü", "Ulubat Gölü"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye'deki Nehirler",
+        "correctAnswers": ["Fırat Nehri", "Dicle Nehri", "Kızılırmak", "Yeşilırmak", "Sakarya Nehri", "Meriç Nehri", "Gediz Nehri", "Büyük Menderes Nehri", "Küçük Menderes Nehri", "Aras Nehri", "Asi Nehri", "Çoruh Nehri", "Ceyhan Nehri", "Seyhan Nehri", "Manavgat Nehri"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye'deki Mağaralar",
+        "correctAnswers": ["Damlataş Mağarası", "Karain Mağarası", "Dim Mağarası", "İnsuyu Mağarası", "Oylat Mağarası", "Gilindire Mağarası", "Kızılkuyu Mağarası", "Dupnisa Mağarası", "Ballıca Mağarası", "Cennet ve Cehennem Obrukları", "Keklik Mağarası", "Saklıkent Mağarası", "Zindan Mağarası", "Ayvaini Mağarası", "Kaklık Mağarası"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    },
+    {
+        "question": "Türkiye'deki Şelaleler",
+        "correctAnswers": ["Düden Şelalesi", "Manavgat Şelalesi", "Kurşunlu Şelalesi", "Tortum Şelalesi", "Yerköprü Şelalesi", "Kapuzbaşı Şelalesi", "Muradiye Şelalesi", "Güney Şelalesi", "Erfelek Tatlıca Şelaleleri", "Suuçtu Şelalesi", "Gelin Tülü Şelalesi", "Çağlayan Şelalesi", "Harbiye Şelaleleri", "Doğançay Şelalesi", "Maral Şelalesi"],
+        "category": "Tarih,Mitoloji ve Siyaset"
+    }
+]

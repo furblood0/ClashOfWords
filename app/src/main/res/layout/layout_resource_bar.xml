@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_resource_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end"
+    android:layout_gravity="end"
+    android:padding="8dp"
+    android:layout_marginTop="16dp">
+
+    <!-- Enerji Bölümü -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginEnd="16dp">
+
+        <!-- Enerji İkonu -->
+        <ImageView
+            android:id="@+id/energy_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/energyicongreen" />
+
+        <!-- Enerji ve Altındaki Süre -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="8dp">
+
+            <!-- Enerji ProgressBar ve Metin -->
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="24dp">
+
+                <!-- ProgressBar -->
+                <ProgressBar
+                    android:id="@+id/energy_progress_bar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:max="10"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/custom_progress_bar" />
+
+                <!-- Enerji Miktarı -->
+                <TextView
+                    android:id="@+id/energy_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="10/10"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- Kalan Süre -->
+            <TextView
+                android:id="@+id/next_energy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="00:00"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Altın Bölümü -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Altın İkonu -->
+        <ImageView
+            android:id="@+id/gold_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/tlicon" />
+
+        <!-- Altın Miktarı -->
+        <TextView
+            android:id="@+id/gold_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/gold_background"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="4dp"
+            android:text="100"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="result_win_background">#FFEB3B</color>
+    <color name="result_lose_background">#F44336</color>
+    <color name="result_draw_background">#9E9E9E</color>
+
+
+    <!-- Primary Renkler (Hem Light hem Night için ortak) -->
+    <color name="colorPrimary">#2196F3</color> <!-- Ana mavi ton -->
+    <color name="colorPrimaryVariant">#1976D2</color> <!-- Daha koyu mavi -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Mavi üzerinde beyaz metin -->
+
+    <!-- Secondary Renkler (Hem Light hem Night için ortak) -->
+    <color name="colorSecondary">#FF9800</color> <!-- Turuncu vurgu rengi -->
+    <color name="colorSecondaryVariant">#F57C00</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Light Tema Renkleri -->
+    <color name="colorBackground">#1976D2</color> <!-- Hafif açık mavi -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Beyaz yüzey -->
+    <color name="colorOnSurface">#212121</color> <!-- Siyah metin -->
+
+    <!-- Night Tema Renkleri -->
+    <color name="colorBackgroundNight">#121212</color> <!-- Koyu gri arka plan -->
+    <color name="colorSurfaceNight">#1E1E1E</color> <!-- Daha koyu yüzey -->
+    <color name="colorOnSurfaceNight">#E0E0E0</color> <!-- Açık metin -->
+
+    <!-- Status Bar Renkleri -->
+    <color name="colorStatusBar">#1976D2</color> <!-- Açık modda koyu mavi -->
+    <color name="colorStatusBarNight">#0D47A1</color> <!-- Gece modunda koyu mavi -->
+
+
+</resources>

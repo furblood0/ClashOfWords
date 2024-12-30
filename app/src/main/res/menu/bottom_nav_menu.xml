@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/homeicon"
+        android:title="@string/title_home" />
+
+    <!-- Shop -->
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/shopicon"
+        android:title="@string/title_shop" />
+
+    <!-- Friends -->
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/friendsicon"
+        android:title="@string/title_friends" />
+
+    <!-- Settings -->
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settingsicon"
+        android:title="@string/title_settings" />
+
+</menu>
