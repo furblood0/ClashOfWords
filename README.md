@@ -1,85 +1,133 @@
+# 🎮 Clash of Words
 
-# Clash of Words
+[![Android](https://img.shields.io/badge/Android-API%2028+-green.svg)](https://developer.android.com/about/versions/android-9.0)
+[![Java](https://img.shields.io/badge/Java-11-orange.svg)](https://www.oracle.com/java/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.0+-yellow.svg)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Clash of Words is a word-based multiplayer game where players compete to answer questions and score points. This Android application offers a fun and interactive gaming experience, complete with user profiles, leaderboards, and in-game rewards.
+Clash of Words, Türkçe kelime tabanlı çok oyunculu bir Android oyunudur. Oyuncular gerçek zamanlı olarak kelime sorularını yanıtlayarak puan kazanır ve arkadaşlarıyla rekabet eder.
 
-## Features
+## ✨ Özellikler
 
--   **Multiplayer Gameplay:** Compete against friends or bots in real-time word battles. For example, you can challenge your friends to answer a series of questions within a time limit, with scores updated live.
--   **User Profiles:** Customize your profile with unique avatars, track your progress, and view your leaderboard rankings.
--   **In-Game Shop:** Purchase power-ups, avatar enhancements, or additional game content using earned or purchased in-game currency.
--   **Interactive UI:** Enjoy a visually appealing interface with intuitive navigation, animated transitions, and responsive design for seamless gameplay.
--   **Firebase Integration:** Secure user authentication, real-time game state synchronization, and cloud-based data storage ensure a smooth and reliable experience.
+- 🎯 **Çok Oyunculu Oyun**: Arkadaşlarınızla veya botlarla gerçek zamanlı kelime savaşları
+- 👤 **Kullanıcı Profilleri**: Özel avatarlar, ilerleme takibi ve liderlik tablosu
+- 🛒 **Oyun İçi Mağaza**: Güçlendiriciler, avatar geliştirmeleri ve ek oyun içeriği satın alma
+- 🎨 **Modern Arayüz**: Sezgisel navigasyon, animasyonlu geçişler ve duyarlı tasarım
+- 🔥 **Firebase Entegrasyonu**: Güvenli kullanıcı kimlik doğrulama ve gerçek zamanlı veri senkronizasyonu
+- 📊 **İstatistikler**: Oyun performansınızı takip edin ve geliştirin
 
-## Technologies Used
+## 🛠️ Kullanılan Teknolojiler
 
--   **Java:** Core programming language for the application.
--   **XML:** UI design and layout.
--   **Firebase:** Backend services for authentication, database, and cloud functions.
--   **Glide:** Image loading and caching.
--   **Android Architecture Components:** ViewModel, LiveData, and Navigation.
--   **Material Design Components:** For modern and responsive UI components.
--   **Crashlytics:** Firebase service for monitoring and fixing crashes.
+- **Java 11**: Ana programlama dili
+- **Android SDK**: Mobil uygulama geliştirme
+- **Firebase**: 
+  - Authentication (Kimlik doğrulama)
+  - Firestore (Veritabanı)
+  - Storage (Dosya depolama)
+  - Crashlytics (Hata takibi)
+- **Android Architecture Components**: ViewModel, LiveData, Navigation
+- **Material Design**: Modern ve duyarlı UI bileşenleri
+- **Glide**: Görsel yükleme ve önbellekleme
 
-## Installation
+## 📱 Ekran Görüntüleri
 
-1.  Clone the repository:
-    
-    ```bash
-    git clone https://github.com/furblood0/clash-of-words.git
-    
-    ```
-    
-2.  Open the project in Android Studio.
-3.  Add your `google-services.json` file to the `app` directory.
-4.  Sync the project with Gradle files.
-5.  Build and run the project on an emulator or physical device.
+<!-- Buraya ekran görüntüleri eklenebilir -->
 
-## Project Structure
+## 🚀 Kurulum
 
--   **Activities:**
-    
-    -   **MainActivity:** Serves as the entry point of the application, managing user authentication and navigation setup.
-    -   **HomeActivity:** Provides the main hub where users can access different features like the shop, profile, and gameplay.
--   **Fragments:**
-    
-    -   **GamePlayFragment:** Handles the main gameplay mechanics, including displaying questions, managing timers, and processing answers.
-    -   **QuestionStartFragment:** Displays pre-game information or instructions before starting a gameplay session.
-    -   **ResultFragment:** Shows the results of the game, including scores and rankings.
-    -   **FriendsFragment:** Displays a list of friends, allowing users to invite or compete with them.
-    -   **ProfileFragment:** Allows users to view and edit their profile details, such as username and avatar.
-    -   **ProfilePictureFragment:** Enables users to select and update their profile pictures.
-    -   **ShopFragment:** Provides access to in-game items or power-ups that users can purchase with in-game currency.
-    -   **SettingsFragment:** Allows users to configure application settings, such as sound, notifications, and privacy options.
--   **Adapters:**
-    
-    -   **AnswerAdapter:** Manages the display of answer options in the gameplay screen.
-    -   **FriendsAdapter:** Manages the display of friends in the FriendsFragment.
-    -   **ProfilePictureAdapter:** Handles the selection and display of profile pictures.
-    -   **ShopAdapter:** Manages the in-game shop's items and their display.
--   **Helpers:**
-    
-    -   **ResourceBarHelper:** Provides utility functions for managing resource bars, such as progress or score indicators.
-    -   **BotManager:** Handles bot interactions during gameplay, ensuring challenging yet balanced AI opponents.
--   **XML Layouts:**
-    
-    -   **activity_main.xml:** Defines the layout for the MainActivity.
-    -   **activity_home.xml:** Layout for the main hub interface.
-    -   **fragment_game_play.xml:** Design for the gameplay screen, including question and answer display.
-    -   **fragment_profile.xml:** Layout for the user profile screen.
-    -   **fragment_settings.xml:** Design for the settings screen.
+### Gereksinimler
+- Android Studio Arctic Fox veya üzeri
+- Android SDK API 28+
+- Java 11
+- Firebase hesabı
 
-## Advanced Features
+### Adımlar
 
--   **Real-Time Updates:** Firebase's Firestore enables real-time data synchronization, ensuring that all players see updated scores and game states immediately.
--   **Enhanced Security:** Firebase Authentication secures user data with features like email/password authentication and Google Sign-In.
--   **In-Game Economy:** The shop system is designed with virtual currency, allowing both earned and purchased credits to be used for upgrades.
+1. **Projeyi klonlayın:**
+   ```bash
+   git clone https://github.com/furblood0/clash-of-words.git
+   cd clash-of-words
+   ```
 
-## Contribution
+2. **Firebase projesini oluşturun:**
+   - [Firebase Console](https://console.firebase.google.com/)'a gidin
+   - Yeni proje oluşturun
+   - Android uygulaması ekleyin (`com.furkan.clashofwords`)
+   - `google-services.json` dosyasını indirin
 
-Contributions are welcome! Please follow these steps:
+3. **Firebase yapılandırması:**
+   - İndirilen `google-services.json` dosyasını `app/` klasörüne yerleştirin
+   - Firebase Console'da Authentication, Firestore ve Storage servislerini etkinleştirin
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Commit your changes and push to your branch.
-4.  Submit a pull request.
+4. **Projeyi açın:**
+   - Android Studio'da projeyi açın
+   - Gradle senkronizasyonunu bekleyin
+   - Emülatör veya fiziksel cihazda çalıştırın
+
+## 📁 Proje Yapısı
+
+```
+app/src/main/java/com/furkan/clashofwords/
+├── Activities/
+│   ├── MainActivity.java          # Uygulama giriş noktası
+│   └── HomeActivity.java          # Ana hub aktivitesi
+├── ui/
+│   ├── gameplay/                  # Oyun mekanikleri
+│   ├── home/                      # Ana sayfa
+│   ├── profile/                   # Kullanıcı profili
+│   ├── shop/                      # Oyun içi mağaza
+│   ├── friends/                   # Arkadaş listesi
+│   └── settings/                  # Ayarlar
+├── Adapters/                      # RecyclerView adaptörleri
+└── Helpers/                       # Yardımcı sınıflar
+```
+
+## 🎮 Oyun Özellikleri
+
+### Soru Kategorileri
+- 🍽️ **Gıda ve Yemek**: Türk mutfağı, kahvaltı, çorbalar
+- 🔬 **Teknoloji ve Bilim**: Programlama, uzay, enerji
+- ⚽ **Spor ve Fitness**: Futbol, olimpiyatlar, sporcular
+- 🎭 **Eğlence ve Kültür**: Film, müzik, sanat
+- 🌍 **Genel Kültür**: Tarih, coğrafya, güncel olaylar
+
+### Oyun Mekanikleri
+- ⏱️ **Zaman Sınırı**: Her soru için belirli süre
+- 💰 **Altın Sistemi**: Doğru cevaplarla altın kazanma
+- ⚡ **Enerji Sistemi**: Oyun oynamak için enerji tüketimi
+- 🏆 **Liderlik Tablosu**: Arkadaşlar arası sıralama
+
+## 🔧 Geliştirme
+
+### Katkıda Bulunma
+
+1. Bu repository'yi fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+### Kod Stili
+
+- Java naming conventions'ı takip edin
+- Türkçe yorumlar kullanın
+- Material Design guidelines'ı uygulayın
+- Firebase best practices'ini takip edin
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 👨‍💻 Geliştirici
+
+**Furkan** - [GitHub](https://github.com/furblood0)
+
+## 🙏 Teşekkürler
+
+- Firebase ekibine harika backend servisleri için
+- Android geliştirici topluluğuna açık kaynak kütüphaneler için
+- Test eden ve geri bildirim veren tüm kullanıcılara
+
+---
+
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
